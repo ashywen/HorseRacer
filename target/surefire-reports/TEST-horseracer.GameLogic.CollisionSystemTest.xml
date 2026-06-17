@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="horseracer.GameLogic.CollisionSystemTest" time="3.459" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="javafx.runtime.version" value="25.0.2+4"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="C:\Users\Meimei\Gitlab\git_repos\group81\CS2212_group81\target\test-classes;C:\Users\Meimei\Gitlab\git_repos\group81\CS2212_group81\target\classes;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-controls\25.0.2\javafx-controls-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-controls\25.0.2\javafx-controls-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-graphics\25.0.2\javafx-graphics-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-graphics\25.0.2\javafx-graphics-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-base\25.0.2\javafx-base-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-base\25.0.2\javafx-base-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-fxml\25.0.2\javafx-fxml-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-fxml\25.0.2\javafx-fxml-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-media\25.0.2\javafx-media-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-media\25.0.2\javafx-media-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar;C:\Users\Meimei\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.6\jackson-annotations-2.9.6.jar;C:\Users\Meimei\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar;C:\Users\Meimei\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0\junit-jupiter-params-5.8.0.jar;C:\Users\Meimei\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Meimei\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0\junit-jupiter-api-5.8.0.jar;C:\Users\Meimei\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Meimei\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0\junit-platform-commons-1.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="javafx.version" value="25.0.2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JavaJDK\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Meimei\AppData\Local\Temp\surefire3067731134199860981\surefirebooter-20260407215244006_3.jar C:\Users\Meimei\AppData\Local\Temp\surefire3067731134199860981 2026-04-07T21-52-43_384-jvmRun1 surefire-20260407215244006_1tmp surefire_0-20260407215244006_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Meimei\Gitlab\git_repos\group81\CS2212_group81\target\test-classes;C:\Users\Meimei\Gitlab\git_repos\group81\CS2212_group81\target\classes;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-controls\25.0.2\javafx-controls-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-controls\25.0.2\javafx-controls-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-graphics\25.0.2\javafx-graphics-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-graphics\25.0.2\javafx-graphics-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-base\25.0.2\javafx-base-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-base\25.0.2\javafx-base-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-fxml\25.0.2\javafx-fxml-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-fxml\25.0.2\javafx-fxml-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-media\25.0.2\javafx-media-25.0.2.jar;C:\Users\Meimei\.m2\repository\org\openjfx\javafx-media\25.0.2\javafx-media-25.0.2-win.jar;C:\Users\Meimei\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar;C:\Users\Meimei\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.6\jackson-annotations-2.9.6.jar;C:\Users\Meimei\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar;C:\Users\Meimei\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0\junit-jupiter-params-5.8.0.jar;C:\Users\Meimei\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Meimei\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0\junit-jupiter-api-5.8.0.jar;C:\Users\Meimei\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Meimei\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0\junit-platform-commons-1.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Meimei"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\JavaJDK\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Meimei\Gitlab\git_repos\group81\CS2212_group81"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Meimei\AppData\Local\Temp\surefire3067731134199860981\surefirebooter-20260407215244006_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="Meimei"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Meimei\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Meimei\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\Meimei\Gitlab\git_repos\group81\CS2212_group81"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\JavaJDK\jdk-25.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Meimei\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Meimei\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\Meimei\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\JavaJDK\jdk-25.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Calibre2\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Git\cmd;C:\Users\Meimei\AppData\Local\Microsoft\WindowsApps;C:\Users\Meimei\AppData\Local\GitHubDesktop\bin;C:\Users\Meimei\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\Meimei\AppData\Roaming\npm;C:\Users\Meimei\AppData\Local\Programs\Warp\bin;C:\Users\Meimei\.dotnet\tools;C:\Program Files\Apache\Maven\apache-maven-3.9.14\bin;C:\Program Files\JavaJDK\jdk-25.0.2\bin;c:\Users\Meimei\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="collisionTest_1" classname="horseracer.GameLogic.CollisionSystemTest" time="0.035">
+    <system-err><![CDATA[Apr 07, 2026 9:52:46 PM com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @7791a895'
+]]></system-err>
+  </testcase>
+  <testcase name="collisionTest_2" classname="horseracer.GameLogic.CollisionSystemTest" time="0.127"/>
+  <testcase name="collisionTest_3" classname="horseracer.GameLogic.CollisionSystemTest" time="0.305"/>
+  <testcase name="collisionTest_4" classname="horseracer.GameLogic.CollisionSystemTest" time="0.084"/>
+</testsuite>

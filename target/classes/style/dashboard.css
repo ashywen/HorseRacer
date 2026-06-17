@@ -1,0 +1,50 @@
+.screen {
+  -fx-background-image: url("/images/track-bg.png");
+}
+
+.body_overlay {
+  -fx-background-color: #f3f4f6;
+  -fx-background-radius: 18;
+  -fx-border-color: #b22222;
+  -fx-border-width: 5;
+  -fx-border-radius: 18;
+}
+/*@font-face {*/
+/*  font-family: "VT323";*/
+/*  src: url("../fonts/VT323-Regular.ttf");*/
+/*}*/
+
+.orange-button {
+  -fx-font-family: "VT323";
+  -fx-background-color: white;
+  -fx-text-fill: #111827;
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-background-radius: 12;
+  -fx-border-color: #b22222;
+  -fx-border-width: 2;
+  -fx-border-radius: 12;
+  -fx-cursor: hand;
+}
+
+.orange-button:hover {
+  -fx-background-color: #ff9999;
+}
+.overlay {
+  -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+.student-card {
+  -fx-background-color: #f5f5f5;
+  -fx-border-color: #b22222;
+  -fx-border-width: 2px;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+}
+.student-card:hover {
+  -fx-background-color: #ff9999;
+}
+.sc-text {
+  -fx-font-size: 18px;
+  -fx-text-fill: black;
+  -fx-font-family: "VT323";
+}

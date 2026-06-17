@@ -1,0 +1,205 @@
+/*@font-face {*/
+/*  font-family: "VT323";*/
+/*  src: url("../fonts/VT323-Regular.ttf");*/
+/*}*/
+.root {
+  -fx-background-image: url("../assets/bgLvl1.png");
+  -fx-background-repeat: repeat-x;
+  -fx-background-size: 100% 100%;
+  -fx-background-position: center center;
+}
+.play-button {
+  -fx-font-family: "VT323";
+  -fx-font-size: 26px;
+  -fx-text-fill: white;
+  -fx-background-color: #16a34a;
+  -fx-background-radius: 8;
+  -fx-border-color: #15803d;
+  -fx-border-width: 0 0 4 0;
+  -fx-border-radius: 8;
+  -fx-cursor: hand;
+}
+
+.play-button:hover {
+  -fx-background-color: #28eb63;
+}
+
+.body_overlay {
+  -fx-background-color: #f3f4f6;
+  -fx-background-radius: 18;
+  -fx-border-color: #b22222;
+  -fx-border-width: 5;
+  -fx-border-radius: 18;
+}
+.shadow {
+  -fx-background-color: rgba(0, 0, 0, 0.55);
+  -fx-background-radius: 18;
+}
+
+.radio-button {
+  -fx-font-family: "VT323";
+  -fx-font-size: 20px;
+}
+.radio-button:selected .radio .dot {
+  -fx-background-color: #b22222;
+  -fx-background-insets: 0; /* Ensures the dot remains centered */
+}
+
+.back-button {
+  -fx-background-color: #b22222;
+  -fx-text-fill: rgb(230, 230, 230);
+  -fx-font-family: "JetBrains Mono";
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-padding: 10 40;
+  -fx-background-radius: 6;
+  -fx-min-width: 200;
+}
+
+.back-button:hover {
+  -fx-background-color: #ff9999;
+}
+
+.student-card {
+  -fx-background-color: #f5f5f5;
+  -fx-border-color: #b22222;
+  -fx-border-width: 2px;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+}
+.sc-text {
+  -fx-font-size: 18px;
+  -fx-text-fill: black;
+  -fx-font-family: "VT323";
+}
+.control-text {
+  -fx-font-size: 30px;
+  -fx-text-fill: black;
+  -fx-font-family: "VT323";
+}
+
+.reset-stats-button {
+  -fx-background-color: #b22222;
+  -fx-font-size: 20px;
+  -fx-font-family: "VT323";
+  -fx-text-fill: #f5f5f5;
+}
+.overlay {
+  -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+.success-button {
+  -fx-background-color: #16a34a;
+  -fx-font-size: 20px;
+  -fx-font-family: "VT323";
+  -fx-text-fill: "#F5F5F5";
+}
+
+.error-label {
+  -fx-font-family: "VT323";
+  -fx-font-size: 20px;
+  -fx-text-fill: #b22222;
+}
+.warning-label {
+  -fx-font-family: "VT323";
+  -fx-font-size: 30px;
+}
+.note-label {
+  -fx-font-family: "VT323";
+  -fx-font-size: 24px;
+  -fx-text-fill: #7e0202;
+}
+.success-label {
+  -fx-font-family: "VT323";
+  -fx-font-size: 24px;
+  -fx-text-fill: #16a34a;
+}
+.screen-title {
+  -fx-font-family: "VT323";
+  -fx-font-size: 36px;
+}
+.misc-button {
+  -fx-background-color: #facc15;
+  -fx-font-size: 20px;
+  -fx-font-family: "VT323";
+  -fx-text-fill: #f5f5f5;
+}
+
+.leaderboard-row {
+  -fx-font-size: 30px;
+  -fx-font-family: "VT323";
+  -fx-padding: 15, 20, 15, 20;
+  -fx-border-width: 2px;
+  -fx-border-radius: 4px;
+  -fx-border-color: #b22222;
+}
+
+.orange-button {
+  -fx-background-color: white;
+  -fx-text-fill: #b22222;
+  -fx-font-family: "VT323";
+  -fx-font-size: 24px;
+  -fx-border-color: #b22222;
+  -fx-border-width: 2;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+  -fx-cursor: hand;
+}
+.orange-button:hover {
+  -fx-background-color: #ff9999;
+}
+
+.green-button {
+  -fx-background-color: #16a34a;
+  -fx-text-fill: white;
+  -fx-font-family: "VT323";
+  -fx-font-size: 28px;
+  -fx-background-radius: 10;
+  -fx-cursor: hand;
+}
+
+.green-button:hover {
+  -fx-background-color: #28eb63;
+}
+
+.red-button {
+  -fx-background-color: #b22222;
+  -fx-text-fill: white;
+  -fx-font-family: "VT323";
+  -fx-font-size: 28px;
+  -fx-background-radius: 10;
+  -fx-cursor: hand;
+}
+
+.red-button:hover {
+  -fx-background-color: #ff9999;
+}
+
+.stat-label {
+  -fx-font-family: "JetBrains Mono";
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-text-fill: "#374151";
+}
+.stat-value {
+  -fx-font-family: "JetBrains Mono";
+  -fx-font-size: 16px;
+  -fx-text-fill: #6b7280;
+}
+.password-input {
+  -fx-font-family: "JetBrains Mono";
+  -fx-font-size: 16px;
+  -fx-text-fill: #4b5563;
+  -fx-prompt-text-fill: #9ca3af;
+  -fx-background-color: #f9fafb;
+  -fx-background-radius: 8;
+  -fx-border-color: #d1d5db;
+  -fx-border-radius: 8;
+  -fx-border-width: 2;
+  -fx-padding: 0 14 0 14;
+}
+.input-header {
+  -fx-font-family: "JetBrains Mono";
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #111827;
+}

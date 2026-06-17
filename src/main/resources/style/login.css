@@ -1,0 +1,105 @@
+.screen {
+    -fx-background-image: url("/images/track-bg.png");
+}
+
+.shadow {
+    -fx-background-color: rgba(0,0,0,0.55);
+    -fx-background-radius: 18;
+}
+
+.card {
+    -fx-background-color: #F3F4F6;
+    -fx-background-radius: 18;
+    -fx-border-color: #B22222;
+    -fx-border-width: 5;
+    -fx-border-radius: 18;
+}
+
+.title {
+    -fx-font-family: 'VT323';
+    -fx-font-size: 42px;
+    -fx-text-fill: #B22222;
+    -fx-letter-spacing: 2px;
+}
+
+.subtitle {
+    -fx-font-family: 'JetBrains Mono';
+    -fx-font-size: 15px;
+    -fx-text-fill: #6B7280;
+}
+
+.tab-active {
+    -fx-font-family: 'VT323';
+    -fx-font-size: 24px;
+    -fx-text-fill: #B22222;
+}
+
+.tab-inactive {
+    -fx-font-family: 'VT323';
+    -fx-font-size: 24px;
+    -fx-text-fill: #9CA3AF;
+}
+
+.accent-line {
+    -fx-background-color: #B22222;
+}
+
+.login-gray-line {
+    -fx-background-color: #E5E7EB;
+}
+
+.field-label {
+    -fx-font-family: 'JetBrains Mono';
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+.login-text-field {
+    -fx-font-family: 'JetBrains Mono';
+    -fx-font-size: 16px;
+    -fx-text-fill: #4B5563;
+    -fx-prompt-text-fill: #9CA3AF;
+    -fx-background-color: #F9FAFB;
+    -fx-background-radius: 8;
+    -fx-border-color: #D1D5DB;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+    -fx-padding: 0 14 0 14;
+}
+
+.error-label {
+    -fx-font-family: 'JetBrains Mono';
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #B22222;
+}
+
+.play-button {
+    -fx-font-family: 'VT323';
+    -fx-font-size: 26px;
+    -fx-text-fill: white;
+    -fx-background-color: #16A34A;
+    -fx-background-radius: 8;
+    -fx-border-color: #15803D;
+    -fx-border-width: 0 0 4 0;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+}
+
+.play-button:hover {
+    -fx-background-color: #28eb63;
+}
+
+.back-button {
+    -fx-font-family: 'VT323';
+    -fx-font-size: 22px;
+    -fx-text-fill: #374151;
+    -fx-background-color: #E5E7EB;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.back-button:hover {
+    -fx-background-color: #aeb1b7;
+}
