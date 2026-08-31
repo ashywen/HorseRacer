@@ -1,5 +1,4 @@
-# java_intro
-# 🐴 HorseRacer
+# HorseRacer
 
 A TypeRacer-inspired multiplayer typing game — but the words don't just get typed, they *race*.
 
